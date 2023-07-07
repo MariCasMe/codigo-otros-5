@@ -6,7 +6,7 @@ public class Codigo5 {
 	public static void main(String []args) {
 		Scanner scann = new Scanner(System.in);
 	    System.out.print("Introduzca un número: ");
-	    int c = scann.nextInt();
+	    int c= scann.nextInt();
 	   int n=c;
 	    
 	    int afo = 0;
@@ -19,7 +19,6 @@ public class Codigo5 {
 	    		
 	      		} else {
 	      			noAfo++;
-	      			
 	      		}
 	    	n /= 10;
 
